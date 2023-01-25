@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(image/foret.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.digital-clock{
+    display: flex;
+}
+
+.digital-clock div{
+    margin: 5px;
+}
+
+.digital-clock span{
+    background-color:rgb(180, 105, 20);
+    font-size: 120px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    opacity: 0.8;
+}
+
+.digital-clock .text{
+    font-size: 15px;
+    height: 30px;
+    text-transform: uppercase;
+    background-color: rgb(139, 46, 9);
+    opacity: 0.8;
+    justify-content: center;
+    align-items: center;
+}
+
+.digital-clock #ampm{
+    bottom: 0;
+    width: 70px;
+    height: 40px;
+    font-size: 30px;
+    background-color: orange;
+}
